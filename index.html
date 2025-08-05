@@ -1,101 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemones 2025</title>
-    <style>
-        * {
-           box-sizing: border-box;
-        }
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Pokemones 2025</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-        body{
-            background-color: rgb(153, 197, 214);
-        }
-        
-        .pikachu {
-            width: 250px;
-            height: 450px;
-            border: 2px solid rgb(0, 0, 0);
-            float: left;
-        }
-        .pikachu img {
-            width: 180px;
-            height: 180px;
-        }
-        .Charizard {
-            width: 250px;
-            height: 450px;
-            border: 2px solid black;
-            float: left;
-        }
-        .Charizard img {
-            width: 180px;
-            height: 180px;
-        }
-        .Charmander {
-            width: 250px;
-            height: 450px;
-            border: 2px solid black;
-            float: left;
-        }
-        .Charmander img {
-            width: 180px;
-            height: 180px;
-        }
-        .Bulbasaur {
-            width: 250px;
-            height: 450px;
-            border: 2px solid black;
-            float: left;
-        }
-        .Bulbasaur img {
-            width: 180px;
-            height: 180px;
-        }
-        .Mewtoo {
-            width: 250px;
-            height: 450px;
-            border: 2px solid black;
-            float: left;
-        }
-        .Mewtoo img {
-            width: 180px;
-            height: 180px;
-        }
-    </style>
+  body {
+    background-color: rgb(153, 197, 214);
+    font-family: Arial, sans-serif;
+  }
+
+  .pokemon {
+    width: 250px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 10px;
+    float: left;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+  }
+
+  .pokemon img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+  }
+
+  audio {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  /* Banner and header styles */
+  .banner-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .banner-container img {
+    width: 85%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .caja1 {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+  }
+
+  .caja1 h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .caja1 p {
+    font-size: 30px;
+  }
+</style>
 </head>
 <body>
-      <div style="text-align: center;">
-        <img src="images/banner.png" alt="Banner Pokémon" style="width: 85%; height: 300px;">
-    </div>
-    <div class="caja1">
-        <h1 style="text-align: center;font-size: 50px;">Pokemones mamones</h1>
-        <div style="font-size: 30px;">
-            <div style="text-align: center;"><p>Bienvenidos a una recopilación visual de algunos de los Pokémon más icónicos de la saga.</p></div></div>
-    </div>
-    <div class="caja2">
-        <ul>
-            <div style="text-align: center;">
-            <li class="pikachu"><h2>Pikachu</h2><p>Puede generar y manipular electricidad, utilizando su cola como un conductor para ataques como el "Impactrueno" o el "Rayo". Además, puede usar sus mejillas para almacenar y liberar energía eléctrica</p>
-                <div style="text-align: center;">
-            <img src="images/pikachu.png" alt=""></div></li>
-            <li class="Charizard"><h2>Charizard</h2><p>Charizard, un Pokémon de tipo Fuego/Volador, posee varios poderes y habilidades. Entre sus poderes más destacados se encuentran su capacidad para generar y manipular fuego, lanzar llamaradas ardientes por la boca, volar a gran altura, y su resistencia y fuerza física.</p>
-                <div style="text-align: center;">
-            <img src="images/charizard.jpg" alt=""></div></li>
-            <li class="Charmander"><h2>Charmander</h2><p>Charmander, el Pokémon tipo Fuego, posee una variedad de ataques y habilidades que lo hacen un oponente formidable. Sus ataques incluyen Ascuas, Giro Fuego, Lanzallamas, y Pirotecnia, todos ellos de tipo Fuego y con diferentes niveles de poder.</p>
-                <div style="text-align: center;">
-            <img src="images/charmander.png" alt=""></div></li>
-            <li class="Bulbasaur"><h2>Bulbasaur</h2><p>Bulbasaur, al ser un Pokémon de tipo Planta y Veneno, posee habilidades relacionadas con estas naturalezas. Sus poderes incluyen la capacidad de manipular plantas, usar veneno, absorber energía vital, regenerarse y mostrar resistencia a la electricidad. </p>
-                <div style="text-align: center;">
-            <img src="images/bulbasaur.png" alt=""></div></li>
-            <li class="Mewtoo"><h2>Mewtoo</h2><p>Mewtwo, conocido como el "Pokémon más fuerte", posee una amplia gama de habilidades psíquicas. Entre sus poderes más destacados se encuentran la telequinesis, telepatía, control mental, y la capacidad de volar e incluso borrar recuerdos. </p>
-                <div style="text-align: center;">
-            <img src="images/mewtoo.png" alt=""></div></li>
-            </div>
-        </ul>
-    </div>
-    <div class="caja3"></div>
-    <div class="caja4"></div>
+  <div class="banner-container">
+    <img src="images/banner.png" alt="Banner Pokémon" />
+  </div>
+
+  <div class="caja1">
+    <h1>Pokemones mamones</h1>
+    <p>Bienvenidos a una recopilación visual de algunos de los Pokémon más icónicos de la saga.</p>
+  </div>
+
+  <div class="caja2">
+    <ul>
+      <li class="pokemon pikachu">
+        <h2>Pikachu</h2>
+        <p>Puede generar y manipular electricidad, utilizando su cola como un conductor para ataques como el "Impactrueno" o el "Rayo".</p>
+        <img src="images/pikachu.png" alt="Pikachu" />
+        <audio controls>
+          <source src="spikachu.mp3" type="audio/mp3" />
+        </audio>
+      </li>
+
+      <li class="pokemon Charizard">
+        <h2>Charizard</h2>
+        <p>Charizard, un Pokémon de tipo Fuego/Volador, posee varios poderes y habilidades.</p>
+        <img src="images/charizard.jpg" alt="Charizard" />
+        <audio controls>
+          <source src="scharizard.mp3" type="audio/mp3" />
+          
+        </audio>
+      </li>
+
+      <li class="pokemon Charmander">
+        <h2>Charmander</h2>
+        <p>Charmander, el Pokémon tipo Fuego, posee una variedad de ataques y habilidades que lo hacen un oponente formidable. Sus ataques incluyen Ascuas, Giro Fuego, Lanzallamas, y Pirotecnia.</p>
+        <img src="images/charmander.png" alt="Charmander" />
+        <audio controls>
+          <source src="scharmander.mp3" type="audio/mp3" />
+        </audio>
+      </li>
+
+      <li class="pokemon Bulbasaur">
+        <h2>Bulbasaur</h2>
+        <p>Bulbasaur, al ser un Pokémon de tipo Planta y Veneno, posee habilidades relacionadas con estas naturalezas.</p>
+        <img src="images/bulbasaur.png" alt="Bulbasaur" />
+        <audio controls>
+          <source src="sbulbasaur.mp3" type="audio/mp3" />
+        </audio>
+      </li>
+
+      <li class="pokemon Mewtoo">
+        <h2>Mewtoo</h2>
+        <p>Mewtwo, conocido como el "Pokémon más fuerte". Entre sus poderes más destacados se encuentran la telequinesis, telepatía y el control mental.</p>
+        <img src="images/mewtoo.png" alt="Mewtoo" />
+        <audio controls>
+          <source src="sme.mp3" type="audio/mp3" />
+
+        </audio>
+      </li>
+    </ul>
+  </div>
 </body>
+</html>
